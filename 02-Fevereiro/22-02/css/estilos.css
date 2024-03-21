@@ -1,0 +1,11 @@
+
+
+body {  /* o body é o seletor */
+    background-color:red;   /* background-color é o atributo e o valor é red*/
+    margin:10%;     /*a unidade de medida da margem pode variar também, pode ser em pixel por exemplo*/
+    
+}
+
+span {
+    background-color:yellow;       /*isso vai deixar só a parte do span amarelo*/
+}

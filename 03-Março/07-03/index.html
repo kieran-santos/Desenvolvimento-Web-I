@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <title>Tabelas Semânticas</title>
+        <link rel="stylesheet" href="css/estilos.css"/>
+        <link rel="stylesheet" href="css/estilos_tabela.css"/>
+    </head>
+    <body>
+        <div id="corpo">
+            <header>
+                <h1>Loja de Hardware</h1>
+            </header>
+            <main>
+                <h2>Lista de Produtos</h2>
+                <table>
+                    <thead>  <!--é o cabeçalho da tabela-->
+                        <tr>
+                            <th>Código</th>         <!--th são as colunas da tabela-->
+                            <th>Categoria</th>
+                            <th>Descrição</th>
+                            <th>Preço</th>
+                            <th>Imagem</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>0</td>              <!--tem que por na mesma ordem que o cabeçalho-->
+                            <td>Processador</td>
+                            <td>Ryzen 7 5800</td>
+                            <td>R$ 1.862,00</td>
+                            <td>
+                                <img src="0.jpg"/>
+                            </td>                           
+                        </tr>
+                        <tr class="zebra">
+                            <td>0.4</td>
+                            <td>Placa de Vídeo</td>
+                            <td>NVidia RTX 4070 TI</td>
+                            <td>R$ 4.822,00</td>
+                            <td>
+                                <img src="0.4.jpg"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>0.8</td>
+                            <td>Placa Mãe</td>
+                            <td>Asus B450 TUF</td>
+                            <td>R$ 989,56</td>
+                            <td>
+                                <img src="0.8.jpg"/>
+                            </td>
+                        </tr>
+                        <tr class="zebra">
+                            <td>1</td>
+                            <td>Memória RAM</td>
+                            <td>8GB</td>
+                            <td>R$ 510,00</td>
+                            <td>
+                                <img src="1.jpg"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>SSD</td>
+                            <td>Kingdom 1TB</td>
+                            <td>R$ 350,00</td>
+                            <td>
+                                <img src="2.jpg"/>
+                            </td>
+                        </tr>
+                        <tr class="zebra">
+                            <td>3</td>
+                            <td>Bateria</td>
+                            <td>Laptop HP 3400 GHZ</td>
+                            <td>R$ 200,00</td>
+                            <td>
+                                <img src="https://bbbaterias.vtexassets.com/arquivos/ids/2875238-800-auto?v=637944440351770000&width=800&height=auto&aspect=true"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Cooler DeepCool</td>
+                            <td>Para AMD CK-AM209, DP-ACAL-A09</td>
+                            <td>R$ 24,99</td>
+                            <td>
+                                <img src="https://m.media-amazon.com/images/I/61MF9-BTNKL.__AC_SX300_SY300_QL70_ML2_.jpg"/>
+                            </td>
+                        </tr>
+                        <tr class="zebra">
+                            <td>5</td>
+                            <td>SSD Adata Ultimate</td>
+                            <td>SU800, 512GB</td>
+                            <td>R$ 354,99</td>
+                            <td>
+                                <img src="https://m.media-amazon.com/images/I/81W8+ZvU4NL._AC_SY300_SX300_.jpg"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Ventoinha Thermaltake</td>
+                            <td>Toughfan 12, 120mm, Preto, CL-F117-PL12BL-A</td>
+                            <td>R$ 149,99</td>
+                            <td>
+                                <img src="https://images.kabum.com.br/produtos/fotos/sync_mirakl/402246/Kit-Cooler-FAN-com-2-Unidades-Thermaltake-ToughCooler-FAN-12-120mm-CL-F082-PL12BL-A_1693399136_gg.jpg"/>
+                            </td>
+                        </tr>
+                        <tr class="zebra">
+                            <td>7</td>
+                            <td>Gabinete Gamer XPG</td>
+                            <td>Starker Air, ARGB, Mid-Tower, Lateral de Vidro, Com 2 Fans, Rosa, STARKERAIR-PKCUS</td>
+                            <td>R$ 449,99</td>
+                            <td>
+                                <img src="https://cdn.dooca.store/15/products/zri7xwhkvgzutgsp3hotj3lft0yrpd9mxl8j_1600x1600+fill_ffffff.jpg?v=1676668816"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Fonte Duex DX600</td>
+                            <td>FSE Black Edition, 600W, DX600FSE-BK</td>
+                            <td>R$ 154,99</td>
+                            <td>
+                                <img src="https://images.kabum.com.br/produtos/fotos/377920/fonte-duex-dx-500fse-500w-80-plus-bronze-pfc-ativo-115v-230v-preto-duex-fse-_1661460703_gg.jpg"/>
+                            </td>
+                        </tr>
+                        <tr class="zebra">
+                            <td>9</td>
+                            <td>Processador AMD</td>
+                            <td>Ryzen 7 5700, 8-Core, 16-Threads, 3.7GHz (4.6GHz Turbo), Cache 20MB, 100-100000743BOX</td>
+                            <td>R$ 1099,99</td>
+                            <td>
+                                <img src="https://s2-techtudo.glbimg.com/24dRrVJ9WSV_FpFNORIN_EmqVnA=/0x0:695x431/1000x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/1/W/2BVDj5ThKpxsNmHpvatQ/2014-07-02-amd-2.jpg"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>Gabinete Gamer</td>
+                            <td>Kmex Gaming Master Aquario Poseidon CG-11G4, Mid-Tower, Lateral Vidro, Preto, CG11G4RH0010B0X</td>
+                            <td>R$ 399,99</td>
+                            <td>
+                                <img src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/i/n/invader-bkcww1123.jpg"/>
+                            </td>
+                        </tr>
+                        <tr class="zebra">
+                            <td>11</td>
+                            <td>Kit Ventoinhas Kmex Gaming Master</td>
+                            <td>SuperStorm AKAAE1, ARGB 3x120mm + Controladora, AKAAE13XARP6B0X</td>
+                            <td>R$ 109,99</td>
+                            <td>
+                                <img src="https://images.tcdn.com.br/img/img_prod/1196997/cooler_fan_rgb_kmex_argb_120mm_aa_dak1_rit_1343_1_d3aed342866d6c73ed56d127c07eed09.jpg"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td>Memória RAM Team Group</td>
+                            <td>T-Force Vulcan Z, 32GB (2x16GB), DDR4, 3200MHz, C16</td>
+                            <td>R$ 579,99</td>
+                            <td>
+                                <img src="https://www.gigantec.com.br/media/catalog/product/cache/526816d9200b6f442572bf66781ece42/5/1/511sevefcgl._sl1280_.jpg"/>
+                            </td>
+                        </tr>
+                        <tr class="zebra">
+                            <td>13</td>
+                            <td>SSD Team Group</td>
+                            <td>T-Force Z540, 1TB, M.2 2280, PCIe NVMe</td>
+                            <td>R$ 1395,99</td>
+                            <td>
+                                <img src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/t/2/t253x6002t0c1011.jpg"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>14</td>
+                            <td>HD Toshiba</td>
+                            <td>Surveillance S300, 6TB, 3.5, 7200RPM, Sata III 6GB/s, Cache 256MB</td>
+                            <td>R$ 1129,99</td>
+                            <td>
+                                <img src="https://images.tcdn.com.br/img/img_prod/458206/hd_1tb_sata_3_7200rpm_toshiba_9171_1_20170109105430.jpg"/>
+                            </td>
+                        </tr>
+                        <tr class="zebra">
+                            <td>15</td>
+                            <td>Water Cooler</td>
+                            <td>PcYes Vision Black Vulcan, ARGB, 240mm, Preto, VS240BV</td>
+                            <td>R$ 1049,99</td>
+                            <td>
+                                <img src="https://images.kabum.com.br/produtos/fotos/130043/water-cooler-rise-mode-gamer-black-rgb-240mm-preto-rm-wcb-02-rgb_1663776681_gg.jpg"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>16</td>
+                            <td>Placa Mae AsRock</td>
+                            <td>H610M-HDV, DDR4, LGA 1700, M-ATX, Chipset Intel H610, H610M-HDV</td>
+                            <td>R$ 449,99</td>
+                            <td>
+                                <img src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/h/5/h510m-hvs-r2.03.jpg"/>
+                            </td>
+                        </tr>
+                        <tr class="zebra">
+                            <td>17</td>
+                            <td>Placa de Video Zotac</td>
+                            <td>GeForce RTX 4070 Ti Super Trinity Black Edition, 16GB, GDDR6X, 256-bit, ZT-D40730D-10P-NAC</td>
+                            <td>R$ 6299,99</td>
+                            <td>
+                                <img src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/h/5/h510m-hvs-r2.03.jpg"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>18</td>
+                            <td>Fonte Gamdias Helios</td>
+                            <td>P2-850G, 850W, ATX 3.0, PCIe 5.0, 80 Plus Gold, Preto, HELIOS-P2-850G</td>
+                            <td>R$ 999,99</td>
+                            <td>
+                                <img src="https://http2.mlstatic.com/D_NQ_NP_631957-MLU73118612179_112023-O.webp"/>
+                            </td>
+                        </tr>
+                        <tr class="zebra">
+                            <td>19</td>
+                            <td>HD Seagate Ironwolf</td>
+                            <td>18TB, 3.5, 7200 RPM, SATA III 6GB/s, Cache 256MB, ST18000VN000</td>
+                            <td>R$ 3049,99</td>
+                            <td>
+                                <img src="https://draxen.com.br/imagens/mp/9BAF10CC-E876-4DDA-AA6B-C41B18B0F53F/produtos/big/224656.jpg"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>20</td>
+                            <td>Placa de Video Pcyes</td>
+                            <td>GeForce GT 610, 2GB, GDDR3, 64-bit, PVG6102GBR364LP</td>
+                            <td>R$ 179,99</td>
+                            <td>
+                                <img src="https://images-americanas.b2w.io/produtos/104174897/imagens/placa-de-video-pcyes-nvidia-geforce-gtx-1050-ti-4gb-128-bits-dual-fan/104174897_1_xlarge.jpg"/>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </main>
+            <footer>
+                Loja de Hardware Ltda
+                <address>
+                    Rua da Fatec, 286
+                    - Jaú - <abbr title="São Paulo - Brasil">SP</abbr>
+                </address>
+            </footer>
+        </div>
+    </body>
+</html>

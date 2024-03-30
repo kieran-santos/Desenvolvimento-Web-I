@@ -1,27 +1,53 @@
-*{margin: 1; padding: 0}
+*{margin: 0%; padding: 0%}
 
 body{
-    background:#eee; padding:5%; font-family: "Trebuchet MS";
+    background:#383838; padding:0%; font-family: "Reddit Mono", sans-serif;
+    width: 100%;
+}
+
+header{
+    background-color:#1E1E1E;
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    height:100%;
+    width:100%;
 }
 
 #corpo{
-    background:#FFF;
+    background:#EEE;
     border:1px solid #999;
     border-radius:5px;
     box-shadow:5px 5px 10px rgba(0,0,0, .3);
     margin: 0 auto;
 }
 
-header{
-    background-color:#CCC;
-    padding:2%;
-    border-bottom:1px solid #999;
+#sobre-empresa{
+    font-family:"Oswald";
+    font-size: 115%;
+}
+
+#lista{
+    border:1px solid #d3d3d3;
+    border-radius:5px;
+    box-shadow:5px 5px 10px rgba(230, 230, 230, 0.3);
+}
+
+#listanome{
+    padding: 2%;
+    background-color:#747474;
+    font-family: "Oswald";
+    font-size: 115%;
 }
 
 header h1{
-    text-align: center;
-    text-shadow: 1px 1px 2px #FFF;
-    text-transform:uppercase;
+    text-align: left;
+}
+
+header h3{
+    text-align: right;
+    color: #eee;
+    font-family: "Keania One";
 }
 
 main{
